@@ -11,5 +11,7 @@ export HOME=/workspace
 
 cd $HOME
 
-zsh
+exec zsh
+
+conda activate comfyui
 
