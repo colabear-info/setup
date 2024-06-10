@@ -23,7 +23,7 @@ apt-get install -y \
     git-lfs
 
 # 设置工作目录
-export HOME=/workspace
+# export HOME=/workspace
 
 # 进入工作目录
 cd $HOME
@@ -39,7 +39,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 chsh -s $(which zsh)
 
 # 配置环境变量和Anaconda初始化
-echo 'export HOME=/workspace' >> ~/.zshrc 
+# echo 'export HOME=/workspace' >> ~/.zshrc 
 echo 'export PATH="$HOME/anaconda3/bin:$PATH"' >> ~/.zshrc
 source ~/.zshrc
 ~/anaconda3/bin/conda init zsh
